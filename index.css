@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Byekan";
+    src: url(fonts/Yekan.ttf) format("truetype"),
+    url(fonts/Yekan.woff) format("woff");
+}
+@font-face {
+    font-family: lalehzar;
+    src: url("fonts/Lalezar-Regular.ttf") format("truetype"),
+    url("fonts/Lalezar-Regular\ a4fran3.woff") format("woff");
+}
+body{
+    font-family: Byekan;
+}
+.header{
+    height: 550px;
+    background-image: url(Imeges/rimac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+
+}
+.header .nav-list{
+    list-style: none;
+    border: 4px solid black;
+    width: 500px;
+    margin: auto;
+    border-radius: 14px;
+    background-color: rgba(0,0,0,0.3);
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+.header .nav-item{
+    display: inline-block;
+    padding: 15px;
+}
+.header .nav-item:hover{
+    color: orange;
+}
+.title{
+    margin-bottom: 0;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.desc{
+    margin: 0px auto;
+    border: 1px solid black;
+    width: 300px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+.desc a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.desc a:visited{
+    color: white;
+
+}
+.desc a:hover{
+    color: orange;
+    text-decoration: solid;
+}
+
+.a{
+    color: black;
+}
+.members{
+
+    text-align: center; 
+    padding: 50px 10px;
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.member-item{
+    width: 260px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 15px #bbbbbb;
+    margin-top: 3px;
+}
+.member-pic{
+    width: 100%;
+
+}
+.member-bio{
+    padding: 15px;
+    text-align: justify;
+}
+.member-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.members h2{
+    background-color: black;
+    color: white;
+}
+.about{
+    background-image: url("Imeges/TESLA.jpg");
+    background-size: cover;
+    height: 800px;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-color: #605c5c;
+    background-blend-mode: multiply;
+}
+.circle{
+    border: 2px solid white;
+    text-align: center;
+    width: 820px;
+    height: 720px;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: multiply;
+    margin: auto;
+    border-radius: 50%;
+    padding: 50px 110px;
+    color: white;
+
+}
+#paragraph{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+.circle h2{
+    font-size: 50px;
+}
+.footer{
+    padding-top: 50px;
+    height: 200px;
+    background-color: lightgray;
+}
+.footer1{
+    height: 60px;
+    background-color: gray;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer1 img{
+    height: 50px;
+    padding: 0px 45px;
+    padding-top: 8px;
+}
+.footer h2{
+    margin: auto;
+    width: 470px;
+    text-align: center;
+    padding-top: 25px;
+    border-bottom: 4px solid black;
+}
